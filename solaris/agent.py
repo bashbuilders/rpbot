@@ -1,8 +1,9 @@
 from google.adk.agents.llm_agent import Agent
+from core.prompts import SOLARIS_PROMPT_CONF
 
 root_agent = Agent(
-    model='gemini-2.5-flash',
-    name='root_agent',
-    description='A helpful assistant for user questions.',
-    instruction='Answer user questions to the best of your knowledge',
+    model=SOLARIS_PROMPT_CONF["model"],
+    name=SOLARIS_PROMPT_CONF["name"],
+    description=SOLARIS_PROMPT_CONF["description"],
+    instruction=SOLARIS_PROMPT_CONF["instruction"],
 )
