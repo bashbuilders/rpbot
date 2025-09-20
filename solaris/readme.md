@@ -329,10 +329,12 @@ La plataforma calcula el número de jornadas de alquiler (por ejemplo, 19 de sep
 		- Olvidar impuestos → define si mostrás precios con IVA para evitar confusión.
 
 20. Datos de cuentas por cobrar
-	| Código de Factura | Nombre del Cliente | Saldo    | Días Atrasados |
-	|-------------------|--------------------|----------|----------------|
-	| INV-2025-001      | Juan Pérez         | -$1,250  | 15             |
-	| INV-2025-003      | María Rodríguez    | -$450    | 8              |
-	| INV-2025-005      | Luis Gómez         | -$3,100  | 25             |
-	| INV-2025-008      | Ana Torres         | -$675    | 10             |
-	| INV-2025-012      | Sofía Vega         | -$890    | 5              |
+> Nota: esta sección **debe renderizarse como tabla**.
+
+| Código de Factura | Nombre del Cliente | Saldo   | Días Atrasados |
+|-------------------|--------------------|---------|----------------|
+| <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">INV-2025-001</a> | <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">Juan Pérez</a> | $1,250  | 15 |
+| <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">INV-2025-003</a> | <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">María Rodríguez</a> | $450   | 8  |
+| <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">INV-2025-005</a> | <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">Luis Gómez</a> | $3,100 | 25 |
+| <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">INV-2025-008</a> | <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">Ana Torres</a> | $675   | 10 |
+| <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">INV-2025-012</a> | <a href="https://stg.rentalportal.io/dashboard/invoice/2356" target="_blank" rel="noopener noreferrer">Sofía Vega</a> | $890   | 5  |
