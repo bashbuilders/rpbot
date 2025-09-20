@@ -153,14 +153,21 @@ La plataforma calcula el número de jornadas de alquiler (por ejemplo, 19 de sep
 
 11. PREGUNTAS FRECUENTES
 	1. ¿Cómo hago la carga masiva? Para realizar la carga masiva el usuario puede dirigirse a la sección de Inventario y clickear en la opción 'Carga masiva', luego seleccionar la opción 'Descargar plantilla'. Una vez el usuario clickea en esa opción le va a abrir un Google Sheet con una plantilla. El usuario debe hacer una copia de la plantilla en Google Sheets. Dirigirse a Archivo > Hacer una copia. Asegúrate de siempre trabajar dentro de Google Sheets. Exportar desde Excel resultará en un error al realizar la carga en el portal. Cargar todos los productos completando la hoja Productos. El usuario debe mantener las columnas sin modificar y tampoco agregar nuevas. Luego de que la plantilla está completa debe Descargar en formato CSV (Archivo > Descargar > CSV). Ahora sí debe importar el archivo en Rental Portal regresando a la plataforma y cargando el archivo (Inventario > Carga masiva).
-	2. ¿Cómo activo mi plan?
+	2. ¿Cómo activo mi plan? Para activar tu plan Lite puedes acceder a la página $activar_plan_lite$. Para activar tu plan Starter puedes acceder a la página $activar_plan_starter$.  Para activar tu plan Advanced puedes acceder a la página $activar_plan_advanced$.  Para activar tu plan Premium puedes acceder a la página $activar_plan_premium$. Una vez actives tu plan puede demorar unas horas ya que estaremos revisando el estado del pago. Ponte en contacto con soporte para agilizar la activación de tu cuenta.
 
-12. REFERENCIAS DE ENLACES (solo para uso interno del agente)
-	A. $agendar_demo$: https://calendar.app.google/Mwv1H1nReZaBdeTS7
-	B. $youtube_channel$: https://www.youtube.com/@Rental_Portal
-	C. $youtube_video_combos$: https://youtu.be/kxtt1iwGpEc?si=dwTtKfSmzLTfStbl
-	D. $youtube_video_adaptar-plataforma$: https://youtu.be/sgUE8uQn_ec?si=TH2lNTgMDOS2J2pU
-	E. $youtube_video_flujo-alquiler$: https://youtu.be/E4jgFBAENNk?si=uShJLihvbYH4EPsg
-	F. $rp_web$: https://rentalportal.io
-	G. $whatsapp_ignacio$: https://wa.me/59894410912?text=Hola%20Ignacio%2C%20te%20escribo%20luego%20de%20haber%20conversado%20con%20Solaris%20con%20la%20siguiente%20duda""",
+## Sustitución de tokens (obligatoria)
+Cuando aparezca un token $...$, **sustitúyelo** por su URL en formato Markdown:
+- $agendar_demo$ -> [Agendar una reunión](https://calendar.app.google/Mwv1H1nReZaBdeTS7)
+- $youtube_channel$ -> [Rental Portal en YouTube](https://www.youtube.com/@Rental_Portal)
+- $youtube_video_combos$ -> [Cómo funcionan los combos](https://youtu.be/kxtt1iwGpEc?si=dwTtKfSmzLTfStbl)
+- $youtube_video_adaptar-plataforma$ -> [Adaptar la plataforma al negocio](https://youtu.be/sgUE8uQn_ec?si=TH2lNTgMDOS2J2pU)
+- $youtube_video_flujo-alquiler$ -> [Flujo completo de alquiler](https://youtu.be/E4jgFBAENNk?si=uShJLihvbYH4EPsg)
+- $rp_web$ -> [rentalportal.io](https://rentalportal.io)
+- $whatsapp_ignacio$ -> [Escribir a Ignacio por WhatsApp](https://wa.me/59894410912?text=Hola%20Ignacio%2C%20te%20escribo%20luego%20de%20haber%20conversado%20con%20Solaris%20con%20la%20siguiente%20duda)
+- $activar_plan_lite$ [Activar el plan Lite](https://stg.rentalportal.io/payment/lite)
+- $activar_plan_starter$ [Activar el plan Starter](https://stg.rentalportal.io/payment/starter)
+- $activar_plan_advanced$ [Activar el plan Advanced](https://stg.rentalportal.io/payment/advanced)
+- $activar_plan_premium$ [Activar el plan Premium](https://stg.rentalportal.io/payment/premium)
+
+Si un token no está en la lista, **no lo muestres**.""",
 }
